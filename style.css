@@ -1,0 +1,109 @@
+:root {
+    --bodyColour: #545e75;
+    --buttonColour: #8b2635;
+    --buttonText: #e0e2db;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    display: flex;
+    padding-top: 15vh;
+    justify-content: center;
+}
+
+.bodyTopBar {
+    height: 5vh;
+    width: 40vh;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: var(--bodyColour);
+}
+
+.bodyScreenBar {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    width: 40vh;
+    background-color: var(--bodyColour);
+
+}
+
+.screenDisplay {
+    height: 5vh;
+    width: 30vh;
+    font-size: 2.5rem;
+    text-align: end;
+    padding-right: 1rem;
+    color:whitesmoke;
+    background-color: #050517c4
+}
+
+.bodyBottomBar {
+    height: 5vh;
+    width: 40vh;
+    background-color: var(--bodyColour);
+}
+
+.buttonsContainer {
+    height: 46vh;
+    display: grid;
+    grid-template-columns: 10vh 10vh 10vh 10vh;
+    background-color: var(--bodyColour);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.buttonSquare {
+    width: 10vh;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    font-size: 1.75rem;
+    border-radius: 6px;
+    width: 4rem;
+    height: 4rem;
+}
+
+.rect {
+    font-size: 1.2rem;
+    border-radius: 6px;
+    width: 4.5rem;
+    height: 2rem;
+}
+
+.small {
+    font-size: 1.75rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 6px;
+}
+
+button {
+    background-color: var(--buttonColour);
+    color: var(--buttonText);
+    margin-bottom: 1rem;
+}
+
+.marginLeft {
+    margin-left: 1rem;
+}
+
+.marginCentreLeft {
+    margin-left: 0.4rem;
+}
+
+.marginCentreRight {
+    margin-right: 0.4rem;
+}
+
+.marginRight {
+    margin-right: 1rem;
+}
