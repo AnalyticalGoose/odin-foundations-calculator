@@ -12,6 +12,11 @@ buttons.addEventListener('click', function (e) {
         inputBus(input)
 })
 
+//keyboard support
+window.addEventListener('keydown', function(e) {
+    inputBus(keys[e.key])
+})
+
 // Checks the input type / value and acts as a signal bus to run the correct fuction
 function inputBus (input) {
     if (isNaN(input) === false) { // is a number
@@ -124,3 +129,8 @@ function reset() {
     screenDisplay.textContent = 0
     totalDisplay.textContent = ""
 }
+
+// Reference object for the event listener to send the correct string to the input bus
+const keys = {'Escape': 'AC', '%': '%', 'Backspace': '▶', '7': '7', '8': '8',
+ '9': '9', '/': '÷', '4': '4', '5': '5', '6': '6', '*': 'x', '1': '1', '2': '2',
+'3': '3', '-': '-', '0': '0', '.': '.', 'Enter': '=', '+': '+'}
