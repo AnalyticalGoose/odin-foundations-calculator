@@ -3,127 +3,95 @@
     --buttonColour: #8b2635;
     --buttonText: #e0e2db;
 }
-
-/* * {
-    border: 1px solid red;
-} */
-
 body {
     display: flex;
     padding-top: 15vh;
     justify-content: center;
     background-color: rgba(17, 17, 17, 0.89);
 }
-
 .bodyTopBar {
-    height: 2.5vh;
-    width: 40vh;
+    height: 10px;
+    width: 310px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     background-color: var(--bodyColour);
 }
-
 .bodyTotalBar {
     display: flex;
     justify-content: center;
-    height: 5vh;
-    width: 40vh;
+    height: 50px;
+    width: 310px;
     background-color: var(--bodyColour);
-
 }
 .bodyScreenBar {
     display: flex;
     justify-content: center;
-    height: 5vh;
-    width: 40vh;
+    height: 50px;
+    width: 310px;
     background-color: var(--bodyColour);
-
 }
-
 .screenDisplay {
-    height: 5vh;
-    width: 30vh;
-    font-size: 2rem;
+    width: 275px;
+    font-size: 40px;
     text-align: end;
-    padding-right: 1rem;
+    padding-right: 20px;
     color:whitesmoke;
     background-color: #131313
 }
-
 .screenDisplayTotal {
-    height: 5vh;
-    width: 30vh;
+    height: 50px;
+    width: 275px;
     color:rgb(250, 176, 65);
-    font-size: 2rem;
+    font-size: 40px;
     text-align: start;
-    padding-left: 1rem;
-    padding-top: 0.4rem;
+    padding-left: 20px;
+    padding-top: 4px;
     background-color: #131313
 }
-
 .bodyBottomBar {
-    height: 2.5vh;
-    width: 40vh;
+    height: 15px;
+    width: 310px;
     background-color: var(--bodyColour);
 }
-
 #buttonsContainer {
-    height: 46vh;
+    height: 372px;
+    width: 310px;
     display: grid;
-    grid-template-columns: 10vh 10vh 10vh 10vh;
+    grid-template-columns: 75px 75px 75px 75px;
+    justify-content: center;
     background-color: var(--bodyColour);
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-
 }
-
 .buttonSquare {
-    width: 10vh;
-    height: 9vh;
+    padding: 0;
+    width: 75px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .number{
-    font-size: 1.75rem;
+    font-size: 40px;
     border-radius: 6px;
-    width: 4rem;
-    height: 4rem;
+    width: 75px;
+    height: 75px;
 }
-
 .rect {
-    font-size: 1.2rem;
+    font-size: 30px;
     border-radius: 6px;
-    width: 4.5rem;
-    height: 2rem;
+    width: 75px;
+    height: 75px;
 }
 
 .small {
-    font-size: 1.75rem;
-    width: 4rem;
-    height: 4rem;
+    font-size: 40px;
     border-radius: 6px;
+    width: 75px;
+    height: 75px;
 }
-
 button {
     background-color: var(--buttonColour);
     color: var(--buttonText);
-    margin-bottom: 1rem;
-}
-
-.marginLeft {
-    margin-left: 1rem;
-}
-
-.marginCentreLeft {
-    margin-left: 0.4rem;
-}
-
-.marginCentreRight {
-    margin-right: 0.4rem;
-}
-
-.marginRight {
-    margin-right: 1rem;
+    margin-bottom: 15px;
 }
